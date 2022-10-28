@@ -1,7 +1,7 @@
 // En este ejercicio deberas crear tu solción en ES5, asegurarte que funcione 
 
 // declara el prompt
- 
+result =  window.prompt();
 function user () {
 // escribe tu código aqui...
 }
