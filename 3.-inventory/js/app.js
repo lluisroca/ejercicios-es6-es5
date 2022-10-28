@@ -17,6 +17,7 @@ const inventory = [
 
 var totalByCategory = function(inventory, category) {
   var filterCategory = function filterCategory(prod) {
+    console.log(prod);
     var totalProd = prod.category === category;
     return totalProd;
   };

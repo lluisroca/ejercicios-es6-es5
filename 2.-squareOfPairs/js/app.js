@@ -4,8 +4,8 @@
 
 // declara las variables ES5
 
-var array = [2, 4, 6];
-// var array = [-3, 2, -8, 12, 5];
+// var array = [2, 4, 6];
+var array = [-3, 2, -8, 12, 5];
 // var array = [1, 2, 3, 4, 5];
 
 
@@ -13,6 +13,16 @@ var array = [2, 4, 6];
 
 function square () {
   // escribe tu código aqui...
+    var novaarray = [];
+    for(var i = 0;i < array.length; i++){
+        if(array[i] % 2 == 0){
+            novaarray.push(array[i] * array[i]);
+        }
+        else{
+            novaarray.push(array[i]);
+        }
+    }
+    console.log(novaarray);
 }
 
 square(array);
@@ -27,6 +37,7 @@ square(array);
 
 
 // declara la funcion y ejecuta el código
+
 
 
 

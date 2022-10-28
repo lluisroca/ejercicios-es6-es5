@@ -29,13 +29,17 @@ formatTeamMessage(teachersTeam, members);
                             //  ES6
 // declaracion de las variables 
 
-// const [teamName, product] = [
-//   'formacion', ['Amalia', 'Karla', 'Silvana', 'Manu', 'Jonh', 'Mike'],
-// ];
+const [teamName, product] = [
+   'formacion', ['Amalia', 'Karla', 'Silvana', 'Manu', 'Jonh', 'Mike'],
+ ];
 
 
-// const formatTeamMessage = (teamName, people) => {
+const formatTeamMessage = (teamName, people) => {
 //   // escribe tu código en ES6 aqui...
-// }
+    var message = 'Hay ' + members.length + " " + 'personas en el equipo de' + " " + teachersTeam + "\n" + "Ellos son" + " " + members.join(", ") + ".";
+    console.log(message)
+    return message;
+};
+         }
 
 // formatTeamMessage(teamName, product);
